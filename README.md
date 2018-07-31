@@ -31,7 +31,7 @@ P2C(0.05)
   npn run generatedTable
 ``` 
 
-随机生成100次攻击：  
+随机生成1000次攻击：  
 ``` 
   npn run generatedAttack
 ``` 
