@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "generatedTable": "node generatedTable.js",
+    "generatedAttack": "node generatedAttack.js"
   },
   "author": "JAY",
   "license": "ISC",

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const P2C = require('./P2C');
+const P2C = require('./modules/P2C');
 
 let table = [];
 for (let i = 1; i<=30; i++) {
