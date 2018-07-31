@@ -4,13 +4,13 @@
 
 ###用法
 ``` javascript
-import {C2P, P2C} from '../modules/OptionComputer/index'
+import {C2P, P2C} from '../modules/index'
 
 ### 根据C值求数学期望
-TODO
+C2P(0.003802)
 
 ### 根据概率求C值
-TODO
+P2C(0.05)
 
 ### 生成1%-100%的C值表
 TODO
