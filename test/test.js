@@ -8,7 +8,7 @@ describe('Pseudo Random Distribution', function() {
     table.map((pc)=>{
       it(pc.title, function() {
         let P = C2P(pc.c);
-        assert.ok(Math.abs(P-pc.p)<0.0001);
+        assert.ok(Math.abs(P-pc.p)<0.001);
       });
     });
   });
@@ -17,7 +17,7 @@ describe('Pseudo Random Distribution', function() {
     table.map((pc)=>{
       it(pc.title, function() {
         let C = P2C(pc.p);
-        assert.ok(Math.abs(C-pc.c)<0.0001);
+        assert.ok(Math.abs(C-pc.c)<0.001);
       });
     });
   });

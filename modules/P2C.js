@@ -5,7 +5,7 @@ let P2C = (p) => {
   let c = p;
   let PE = C2P(c);
 
-  while ( Math.abs(PE-p)>0.00001 ) {
+  while ( Math.abs(PE-p)>0.001 ) {
     c = (high+low)/2;
     PE = C2P(c);
     if (PE > p) {
@@ -13,6 +13,7 @@ let P2C = (p) => {
     } else {
       low = c
     }
+    // console.log(`high:${high}, low:${low}, c:${c}, PE:${PE},`)
   }
 
   return c;
